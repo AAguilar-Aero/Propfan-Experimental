@@ -8,5 +8,3 @@ The package will be organised by engineering domain as modules are implemented:
 - `gearbox`: transmission sizing and losses.
 - `propeller`: geometry, BEMT and airfoil interfaces.
 - `optimisation`: design-space exploration and Pareto analysis.
-
-Keep modules independent where possible and expose explicit SI-unit interfaces.
