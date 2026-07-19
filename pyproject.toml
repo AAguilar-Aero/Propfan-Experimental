@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "propfan-experimental"
+version = "0.1.0"
+description = "Conceptual design and simulation platform for a geared open-rotor propfan."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+  { name = "AAguilar-Aero" },
+]
+dependencies = [
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
