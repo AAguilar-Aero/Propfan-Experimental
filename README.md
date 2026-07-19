@@ -3,12 +3,11 @@
 > A reproducible conceptual-design platform for a geared, single-rotor open propfan.
 
 ![Project status](https://img.shields.io/badge/status-foundation-blue)
-![Development](https://img.shields.io/badge/development-conceptual%20design-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Overview
 
-This is a long-term aerospace engineering portfolio project. Its objective is to develop and document a conceptual open-rotor propulsion system for a reference regional aircraft, from mission requirements through preliminary CAD and verification activities.
+The objective is to develop and document a conceptual open-rotor propulsion system for a reference regional aircraft, from mission requirements through preliminary CAD and verification activities.
 
 The repository treats the propfan as a system rather than an isolated CAD model. The engineering workflow links aircraft performance, gas-turbine cycle analysis, gearbox sizing, propeller aerodynamics, optimisation, CAD parameters, structural assessment and technical reporting.
 
